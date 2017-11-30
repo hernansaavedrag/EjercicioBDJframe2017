@@ -19,11 +19,14 @@ public class Frm_prinicpal extends javax.swing.JFrame {
     JIFrame_editarCli jiEditar = new JIFrame_editarCli();
     JIFrame_listarCli jilistar = new JIFrame_listarCli();
     
+    
+    
     public Frm_prinicpal() {
         initComponents();
         this.add(jiGuardar);
         this.add(jiEditar);
         this.add(jilistar);
+        
     }
 
     /**

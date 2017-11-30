@@ -93,9 +93,9 @@ public class JIFrame_listarCli extends javax.swing.JInternalFrame {
             
             //DefaultTableModel modelo = (DefaultTableModel) tabla.getModel();
             DefaultTableModel modelo = new DefaultTableModel();
-            modelo.addColumn("rut");
-            modelo.addColumn("nombre");
-            modelo.addColumn("edad");
+            modelo.addColumn("Rut");
+            modelo.addColumn("Nombre");
+            modelo.addColumn("Edad");
             
             Object [] fila = new Object[3];
             while (objRes.next()) {
