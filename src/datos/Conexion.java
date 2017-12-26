@@ -43,4 +43,8 @@ public class Conexion {
         conn.close();
     }
     
+    public void hola()
+    {
+        System.out.println("hola");
+    }
 }
